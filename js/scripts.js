@@ -15,10 +15,12 @@ var possiblePingPong = function (input) {
 var pingPong = function(){
     number.map(function(numbers){
     if (numbers === 0) {  
-    } else if (numbers % 3 === 0) {
-      $("#result").append("<li>" + "ping" + "</li>");
+    } else if (numbers % 3 === 0) { // Numbers divisible by 3 will be replaced with "ping"
+      $("#result").append("<li>" + "ping" + "</li>");  
+    } else if (numbers % 5 === 0) {
+      $("#result").append("<li>" + "pong" + "</li>"); // Numbers divisible by 5 will be replaced with "pong"
     } else {
-      $("#result").append("<li>" + numbers + "</li>");
+      $("#result").append("<li>" + numbers + "</li>"); // Input will be counted up to the provided number, starting on 1.
       }
   }
 )}
