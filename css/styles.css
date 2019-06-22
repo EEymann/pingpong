@@ -1,0 +1,19 @@
+header.intro {
+  font-size: 75px;
+  text-align: center;
+  color: black;
+  background-color: rgb(247, 243, 192);
+}
+
+.btn {
+  background-color: #A9A9A9;
+}
+
+
+.left {
+  width: 178px;
+  float:left;
+}
+.main {
+margin-left:178px;
+}

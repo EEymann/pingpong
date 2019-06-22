@@ -8,8 +8,10 @@
     <title>Ping-Pong Game!</title>
   </head>
   <body>
-    <div class="container">
-      <header>Ping-Pong</header>
+    <div class="container">    
+    <div class="jumbotron">
+      <header class="intro">Ping-Pong</header>
+      <div class="main">
       <h1>Let's play!</h1>
       <h2>Rules:</h2>
         <ol>
@@ -23,16 +25,27 @@
         <div class="form-group">
           <label for="number">Enter a positive number:</label>
           <input id="number" type="text">
+          <button type="submit" class="btn">Ping Pong!</button>
         </div>
-
-        <button type="submit" class="btn btn-success">Ping Pong!</button>
+      </div>
+      <div id="result">
+          <ul>
+          </ul>
+  
+        </div>
+        <div class="left">
+          <h1>About Ping Pong</h1>
+          <h2>Created by:</h2>
+          <p>Elizabeth Eymann</p>
+          <h2>GitHub Username/URL</h2>
+          <p>EEymann</p>
+          <h2>Level 2 Test for:</h2>
+          <p>JavaScript</p>
+          </div>
       </form>
 
-      <div id="result">
-        <ul>
-        </ul>
-
-      </div>
+      
+    </div>
     </div>
   </body>
 </html>
