@@ -33,7 +33,7 @@ _This webpage contains a simple ping pong game, where the user can input numbers
 * _Clone this repository_
 * _A folder titled "pingpong" will appear on your desktop._
 * _Click into the folder and open the file titled "index.html"_
-* _You can also checkout this webpage at https://eeymann.github.io/my-portfolio/index.html
+* _You can also checkout this webpage at https://eeymann.github.io/pingpong/index.html
 * _Enjoy my webpage!_
 
 ## Technologies Used
