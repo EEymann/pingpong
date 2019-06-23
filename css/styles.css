@@ -11,9 +11,16 @@ header.intro {
 
 
 .left {
-  width: 178px;
+  width: 195px;
   float:left;
+  margin-left: 100px;
+  float: left;
+  background-color: rgb(154, 216, 154);
+  padding: 4px;
+  margin: 20px;
+  font-size: 20px;
 }
+
 .main {
 margin-left:178px;
 }
